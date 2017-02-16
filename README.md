@@ -2,15 +2,19 @@
 personal homepage
 
 
-<div>
-    <table border="10">
-      <tr>
-        <th>one</th>
-        <th>two</th>
-      </tr>
-      <tr>
-        <td>Hello</td>
-        <td>你好</td>
-      </tr>
-    </table>
+<div border="1px">
+    <div align="left">
+        <img src="http://olgi271zo.bkt.clouddn.com/images/avatar.png" width=""></img>
+    </div>
+    <div align="right">
+      
+    </div>
+</div>
+
+<div border="1px">
+
+</div>
+
+<div border="1px">
+
 </div>
