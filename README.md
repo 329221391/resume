@@ -3,7 +3,7 @@ personal homepage
 
 
 <div>
-    <table border="0">
+    <table border="10">
       <tr>
         <th>one</th>
         <th>two</th>
