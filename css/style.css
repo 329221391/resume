@@ -1,0 +1,621 @@
+*{margin: 0px auto;padding: 0px; color: #24292e}
+a{text-decoration:none;color: #4078c0}
+a:hover{text-decoration:underline;cursor: pointer}
+table{
+    margin-top: 0.5em;
+    text-align: left;
+    width: 100%;
+}
+table img{
+    float: right;
+    height: 30px;
+}
+body,html{
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    height:100%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+
+.header{
+    /*background-color: #e5e5e5;*/
+    width: 100%;
+}
+
+
+@media screen and (min-width: 950px){
+    #avatar_200{
+        display: block;
+    }
+    #avatar_100{
+        display: none;
+        }
+        #degree_right_long{
+            display: block;;
+        }
+        #degree_right_small{
+            display: none;;
+        }
+}
+
+@media screen and (min-width: 590px) and (max-width: 950px){
+    #avatar_200{
+        display: none;
+    }
+    #avatar_100{
+        display: block;
+        }
+    #avatar_image{
+        margin-top: 3em;
+        width: 20%;
+        height: 100px;
+    }
+    #title_name{
+        width: 80%;
+        height: 100%;
+    }
+    #left_side{
+        /*display: none;*/
+        width: 100%;
+    }
+    #right_side{
+        width: 100%;
+    }
+    #container_media{
+        width: 68vw;
+    }
+    #github_font{
+        font-size: 20px;
+    }
+    #github_font img{
+        width: 15px;
+        height: 15px;
+    }
+    #degree_font{
+        font-size:17px;
+    }
+    #degree_right_long{
+        display: none;
+    }
+    #degree_right_small{
+        display: block;;
+    }
+}
+
+@media screen and (max-width: 590px){
+    #head_content{
+        display: none;
+    }
+    #basic_info_big{
+        display: none;
+    }
+    #basic_info_small{
+        display: block;
+    }
+    .company_icon{
+        display: none;
+    }
+    #avatar_200{
+        display: none;
+    }
+    #avatar_100{
+        display: block;
+        }
+    #avatar_image{
+        margin-top: 3em;
+        width: 20%;
+        height: 100px;
+    }
+    #title_name{
+        width: 80%;
+        height: 100%;
+    }
+    #left_side{
+        /*display: none;*/
+        width: 100%;
+    }
+    #right_side{
+        width: 100%;
+    }
+    #container_media{
+        width: 68vw;
+    }
+    #github_font{
+        font-size: 15px;
+    }
+    #github_font img{
+        width: 15px;
+        height: 15px;
+    }
+    #degree_font{
+        font-size:17px;
+    }
+    #degree_right_long{
+        display: none;
+    }
+    #degree_right_small{
+        display: block;;
+    }
+}
+
+.head-content{
+    width: 90%;
+    height: 100%;
+    background-color: #e5e5e5;
+    padding-bottom: 1em;
+}
+
+.avatar{
+    padding-top: 2em;
+    width: 30%;
+}
+.avatar img{
+    max-width: 200px;
+}
+
+.title{
+    width: 70%;
+    height: 100%;
+}
+
+.name{
+    text-align: left;
+    width:70%;
+    margin-top: 2em;
+    /*padding: 1.5em;*/
+}
+
+.name p{
+    padding-left: 3em;
+    font-size: 40px;
+    width: 100%;
+}
+
+.name a{
+    line-height: 0em;
+    font-size: 30px;
+}
+.name a img{
+    width: 3%;
+}
+
+.degree{
+    text-align: center;
+    font-size: 20px;
+    margin-top:3em;
+    width: 30%;
+}
+
+.comment{
+    border-top: 2px solid #222;
+    text-align: left;
+    margin-top: 0.2em;
+    width: 95%;
+}
+.comment ul{
+    padding-left: 1em;
+}
+
+.content{
+    margin-top: 0.5em;
+    background-color: #e5e5e5;
+    width: 90%;
+}
+
+.left-side{
+    width: 20%;
+    padding-bottom: 0.5em;
+}
+.basic-info{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.5em;
+    background-color: #fff;
+    text-align: left;
+}
+.left-title{
+    width: 150px;
+    height: 40px;
+    text-align: left;
+    background: #c2dee9;
+    background: linear-gradient(135deg, transparent 0px, #c2dee9 0) top left,
+                linear-gradient(-135deg, transparent 15px, #c2dee9 0) top right,
+                linear-gradient(-45deg, transparent 15px, #c2dee9 0) bottom right,
+                linear-gradient(45deg, transparent 0px, #c2dee9 0) bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
+.left-title p{
+    padding: 0.7em 1em;
+    font-weight: bold;
+}
+
+.left-contain{
+    width: 100%;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    margin-right: 0.5em;
+    border-top: 2px solid #24292e;
+}
+
+.education-info{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.5em;
+    background-color: #fff;
+    text-align: left;
+}
+.education{
+    height:100%;
+}
+
+
+.right-side{
+    padding-bottom: 0.5em;
+    width: 80%;
+}
+
+
+/*技能进度条开始*/
+.container {
+    width: 59vw;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: #fff;
+    text-align: left;
+}
+
+.content-progress{
+	width:100%;
+	margin:0;
+	position:relative;
+	float:left;
+	line-height:2em;
+}
+.col { width:100.5%; }
+
+#skill {
+	list-style:none;
+	padding-top:25px;
+}
+
+#skill li {
+	margin-bottom:25px;
+	background:#000;
+	height:8px;
+	border-radius:3px;
+	border-left:1px solid #111;
+	border-top:1px solid #111;
+	border-right:1px solid #333;
+	border-bottom:1px solid #333;
+}
+
+#skill li .em {
+	position:relative;
+	top:-25px;
+}
+
+.expand {
+	height:4px;
+	margin:2px 0;
+	background:#2ef7f7;
+	position:absolute;
+	box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
+}
+
+.PHP            { width:70%;  -moz-animation:PHP 2s ease-out;           -webkit-animation:PHP 2s ease-out;       }
+.phpframework   { width:80%;  -moz-animation:phpframework 2s ease-out;  -webkit-animation:phpframework 2s ease-out;       }
+.nginx          { width:70%;  -moz-animation:nginx 2s ease-out;         -webkit-animation:nginx 2s ease-out;       }
+.Linux          { width:75%;  -moz-animation:Linux 2s ease-out;         -webkit-animation:Linux 2s ease-out;       }
+.apache         { width:90%;  -moz-animation:apache 2s ease-out;        -webkit-animation:apache 2s ease-out;       }
+.mysql          { width:50%;  -moz-animation:mysql 2s ease-out;         -webkit-animation:mysql 2s ease-out;       }
+.html5          { width:30%;  -moz-animation:html5 2s ease-out;         -webkit-animation:html5 2s ease-out;       }
+.css3           { width:50%;  -moz-animation:css3 2s ease-out;          -webkit-animation:css3 2s ease-out;        }
+.javascript     { width:40%;  -moz-animation:javascript 2s ease-out;    -webkit-animation:javascript 2s ease-out;        }
+.jquery         { width:80%;  -moz-animation:jquery 2s ease-out;        -webkit-animation:jquery 2s ease-out;      }
+.photoshop      { width:30%;  -moz-animation:photoshop 2s ease-out;     -webkit-animation:photoshop 2s ease-out;   }
+.dreamweaver    { width:100%; -moz-animation:dreamweaver 2s ease-out;   -webkit-animation:dreamweaver 2s ease-out; }
+
+@-moz-keyframes PHP           { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes phpframework  { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes nginx         { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes Linux         { 0%  { width:0px;} 100%{ width:75%;}  }
+@-moz-keyframes apache        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes mysql         { 0%  { width:0px;} 100%{ width:50%;}  }
+@-moz-keyframes html5         { 0%  { width:0px;} 100%{ width:30%;}  }
+@-moz-keyframes css3          { 0%  { width:0px;} 100%{ width:50%;}  }
+@-moz-keyframes javascript    { 0%  { width:0px;} 100%{ width:40%;}  }
+@-moz-keyframes jquery        { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes photoshop     { 0%  { width:0px;} 100%{ width:30%;}  }
+@-moz-keyframes dreamweaver   { 0%  { width:0px;} 100%{ width:100%;} }
+
+@-webkit-keyframes PHP            { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes phpframework   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes nginx          { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes Linux          { 0%  { width:0px;} 100%{ width:75%;}  }
+@-webkit-keyframes apache         { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes mysql          { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes html5          { 0%  { width:0px;} 100%{ width:30%;}  }
+@-webkit-keyframes css3           { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes javascript     { 0%  { width:0px;} 100%{ width:40%;}  }
+@-webkit-keyframes jquery         { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes photoshop      { 0%  { width:0px;} 100%{ width:30%;}  }
+@-webkit-keyframes dreamweaver    { 0%  { width:0px;} 100%{ width:100%;} }
+/*技能进度条结束*/
+
+
+/*网页头部的轮播图开始*/
+.fullwidthbanner-container{
+	width:100% !important;
+	position:relative;
+	padding:0;
+	max-height:450px !important;
+	overflow:hidden;
+}
+
+.fullwidthbanner-container .fullwidthabnner	{
+	width:100% !important;
+	max-height:450px !important;
+	position:relative;
+}
+@media only screen and (min-width: 1920px) {
+	  .banner, .bannercontainer			{	width:1920px; height:450px;}
+}
+@media only screen and (min-width: 959px) and (max-width:1600px ) {
+	  .banner, .bannercontainer			{	width:959px; height:390px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	  .banner, .bannercontainer			{	width:768px; height:309px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	  .banner, .bannercontainer			{	width:768px; height:309px;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	   .banner, .bannercontainer		{	width:480px; height:193px;	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+		.banner, .bannercontainer		{	width:320px;height:129px;	}
+}
+
+@media only screen and (max-width: 319px) {
+		.banner, .bannercontainer		{	width:240px;height:97px;	}
+}
+
+.tp-bullets.simplebullets.round .bullet:hover,
+.tp-bullets.simplebullets.round .bullet.selected,
+.tp-bullets.simplebullets.navbar .bullet:hover,
+.tp-bullets.simplebullets.navbar .bullet.selected {
+	background:#e1472f !important;
+}
+.tp-leftarrow:hover,
+.tp-rightarrow:hover {
+	background-color:#e1472f !important;
+ }
+/** BULLETS **/
+.tp-bullets {
+    z-index: 1001;
+    position: absolute;
+    bottom: 0px;
+}
+
+.tp-bullets.simplebullets.round .bullet {
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+    width: 188px;
+    height: 6px;
+    float: left;
+    -webkit-transition: background 0.1s linear;
+    -moz-transition: color, background 0.1s linear;
+    -o-transition: color, background 0.1s linear;
+    transition: color, background 0.1s linear;
+}
+
+
+.tp-leftarrow.large {
+	z-index: 100;
+	cursor: pointer;
+	position: relative;
+	background: #393939 url(../images/slider-left-arrow.png) no-Repeat;
+	width: 42px;
+	height: 43px;
+	margin-left: 0px;
+	margin-top: -21px;
+	-webkit-transition: background 0.1s linear;
+	-moz-transition: color, background 0.1s linear;
+	-o-transition: color, background 0.1s linear;
+	transition: color, background 0.1s linear;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);/*增加阴影*/
+	/*
+	**打开注释，按钮变成圆形的
+	border-radius: 20px;  所有角都使用半径为5px的圆角，此属性为CSS3标准属性
+	-moz-border-radius: 20px;  Mozilla浏览器的私有属性
+	-webkit-border-radius: 20px;  Webkit浏览器的私有属性
+	border-radius: 20px 20px 20px 20px; 四个半径值分别是左上角、右上角、右下角和左下角
+	*/
+}
+
+.tp-rightarrow.large {
+    z-index: 100;
+    cursor: pointer;
+    position: relative;
+    background: #393939 url(../images/slider-right-arrow.png) no-Repeat 0 0;
+    width: 42px;
+    height: 43px;
+    margin-left: 0;
+    margin-top: -21px;
+    -webkit-transition: background 0.1s linear;
+    -moz-transition: color, background 0.1s linear;
+    -o-transition: color, background 0.1s linear;
+    transition: color, background 0.1s linear;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);/*增加阴影*/
+	/*
+	**打开注释，按钮变成圆形的
+	border-radius: 20px;  所有角都使用半径为5px的圆角，此属性为CSS3标准属性
+	-moz-border-radius: 20px;  Mozilla浏览器的私有属性
+	-webkit-border-radius: 20px;  Webkit浏览器的私有属性
+	border-radius: 20px 20px 20px 20px; 四个半径值分别是左上角、右上角、右下角和左下角
+	*/
+}
+
+
+
+.tp-bullets.tp-thumbs {
+    z-index: 100;
+    position: absolute;
+    padding: 3px;
+    background-color: #fff;
+    width: 500px;
+    height: 50px;
+    margin-top: -50px;
+}
+
+.fullwidthbanner-container .tp-thumbs {
+    padding: 3px;
+}
+
+.tp-bullets.tp-thumbs .tp-mask {
+    width: 500px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer {
+    width: 5000px;
+    position: absolute;
+}
+
+.tp-bullets.tp-thumbs .bullet {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    background: none;
+    margin: 0;
+    float: left;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	/*filter: alpha(opacity=50);	*/
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+}
+
+.tp-bullets.tp-thumbs .bullet:hover,
+.tp-bullets.tp-thumbs .bullet.selected {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+}
+
+.tp-thumbs img {
+    width: 100%;
+}
+
+.tp-bannertimer {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    z-index: 200;
+    z-index: 5000;
+}
+
+.tp-bannertimer.tp-bottom {
+    bottom: 0px !important;
+    height: 5px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .responsive .tp-bullets.tp-thumbs {
+        width: 300px !important;
+        height: 30px !important;
+    }
+
+    .responsive .tp-bullets.tp-thumbs .tp-mask {
+        width: 300px !important;
+        height: 30px !important;
+    }
+
+    .responsive .tp-bullets.tp-thumbs .bullet {
+        width: 60px !important;
+        height: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+    .responsive .tp-bullets {
+        display: none;
+    }
+
+    .responsive .tparrows {
+        display: none;
+    }
+}
+
+
+.tp-simpleresponsive img {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.tp-simpleresponsive a {
+    text-decoration: none;
+}
+
+.tp-simpleresponsive ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tp-simpleresponsive >ul >li {
+    list-stye: none;
+    position: absolute;
+    visibility: hidden;
+}
+
+.caption.slidelink a div,
+.tp-caption.slidelink a div {
+    width: 10000px;
+    height: 10000px;
+}
+
+.tp-loader {
+    background: url(../images/loader.gif) no-repeat 10px 10px;
+    background-color: #fff;
+    margin: -22px -22px;
+    top: 50%;
+    left: 50%;
+    z-index: 10000;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+/*网页头部的轮播图结束*/

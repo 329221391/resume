@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="charset" content="utf-8">
-        <meta name="viewport" content="width=device-width, height=device-height">
-        <link rel="stylesheet" href="http://olk3x4rsg.bkt.clouddn.com/css/style.css" media="screen" charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!-- <link rel="stylesheet" href="http://olk3x4rsg.bkt.clouddn.com/css/style.css" media="screen" charset="utf-8"> -->
+        <link rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
         <script src="http://olk3x4rsg.bkt.clouddn.com/js/jquery-1.8.3.min.js"></script>
         <script type="text/javascript" src="http://olk3x4rsg.bkt.clouddn.com/js/jquery.banner.revolution.min.js"></script>
         <script type="text/javascript" src="http://olk3x4rsg.bkt.clouddn.com/js/banner.js"></script>
@@ -36,18 +37,20 @@
                     </div>
                 </div>
             </div>
-            <div class="head-content">
-                <div class="avatar left">
-                    <img src="http://olgi271zo.bkt.clouddn.com/avatar200x200.png" alt="" />
+            <div id="head_content" class="head-content">
+                <div id="avatar_image"  class="avatar left">
+                    <img id="avatar_200" src="http://olk3x4rsg.bkt.clouddn.com/images/avatar/avatar200x200.png" alt="" />
+                    <img id="avatar_100" src="http://olk3x4rsg.bkt.clouddn.com/images/avatar/avatar70x70.jpg" alt="" />
                 </div>
-                <div class="title right">
+                <div id="title_name" class="title right">
                     <div class="name left">
                         <p>郑 小 燕</p>
-                        <a href="https://github.com/marvel-zheng/resume"><img src="http://olgi271zo.bkt.clouddn.com/git.png" alt="" />github.com/marvel-zheng/resume</a>
+                        <a id="github_font" href="https://github.com/marvel-zheng/resume"><img src="http://olgi271zo.bkt.clouddn.com/git.png" alt="" />github.com/marvel-zheng/resume</a>
                     </div>
 
-                    <div class="degree right">
-                        <p>学士（自学考试）</p>
+                    <div  id="degree_font" class="degree right">
+                        <p id="degree_right_long">学士（自学考试）</p>
+                        <p id="degree_right_small">学士</p>
                     </div>
                     <div class="clear"></div>
                     <div class="comment left">
@@ -66,18 +69,28 @@
         <div class="clear"></div>
         <!-- 页面内容区 -->
         <div class="content">
-            <div class="left-side left">
+            <div id="left_side" class="left-side left">
                 <div class="basic-info">
                     <div class="left-title left">
                         <p>基本资料</p>
                     </div>
 
-                    <div class="left-contain left">
+                    <div id="basic_info_big" class="left-contain left">
   						<p>姓名： 郑小燕</p>
   						<p>年龄： 33</p>
                         <p>电话： 18621762439</p>
   						<p>邮箱： 329221391@qq.com</p>
   						<p>地址： 深圳市宝安区</p>
+                        <p>网站： Marvel-Zheng</p>
+                    </div>
+                    <div id="basic_info_small" class="left-contain left">
+                        <p>姓名： 郑小燕</p>
+                        <p>年龄： 33岁</p>
+                        <p>学位： 学士（自学考试）
+                        <p>电话： 18621762439</p>
+                        <p>邮箱： 329221391@qq.com</p>
+                        <p>地址： 深圳市宝安区</p>
+                        <p>GitHub： <a id="github_font" target="_blank"  href="https://github.com/marvel-zheng/resume"><img src="http://olgi271zo.bkt.clouddn.com/git.png" alt="" />github.com/marvel-zheng/resume</a></p>
                         <p>网站： Marvel-Zheng</p>
                     </div>
                     <div class="clear"></div>
@@ -98,7 +111,7 @@
                 </div>
             </div>
             <!-- 右边 -->
-            <div class="right-side left">
+            <div id="right_side" class="right-side left">
 				<div class="basic-info">
                     <div class="left-title left">
                         <p>工作经历</p>
@@ -108,7 +121,7 @@
 						<table>
 							<tr>
 								<th>公司名称：</th>
-								<th><img src="http://olk3x4rsg.bkt.clouddn.com/images/icon/discovery.png" alt=""></th>
+								<th class="company_icon" ><img src="http://olk3x4rsg.bkt.clouddn.com/images/icon/discovery.png" alt=""></th>
 								<th> 发现教育集团(安阳)</th>
 								<th>PHP程序员</th>
 								<th>2014年-2017年2月</th>
@@ -120,7 +133,7 @@
 						<table>
 							<tr>
 								<th>公司名称：</th>
-								<th><img src="http://olk3x4rsg.bkt.clouddn.com/images/icon/jtag.png" alt=""></th>
+								<th class="company_icon" ><img  src="http://olk3x4rsg.bkt.clouddn.com/images/icon/jtag.png" alt=""></th>
 								<th> 荷兰捷泰克（JTAG）公司</th>
 								<th>FAE</th>
 								<th>2012年-2014年</th>
@@ -131,7 +144,7 @@
 						<table>
 							<tr>
 								<th>公司名称：</th>
-								<th><img src="http://olk3x4rsg.bkt.clouddn.com/images/icon/htc.jpg" alt=""></th>
+								<th class="company_icon" ><img src="http://olk3x4rsg.bkt.clouddn.com/images/icon/htc.jpg" alt=""></th>
 								<th> 宏达国际(HTC上海)公司</th>
 								<th>维修员</th>
 								<th>2009年-2012年</th>
@@ -142,7 +155,7 @@
 						<table>
 							<tr>
 								<th>公司名称：</th>
-								<th><img src="http://olk3x4rsg.bkt.clouddn.com/images/icon/nx.jpg" alt=""></th>
+								<th class="company_icon" ><img src="http://olk3x4rsg.bkt.clouddn.com/images/icon/nx.jpg" alt=""></th>
 								<th> 诺基亚西门子通讯(苏州)公司</th>
 								<th>维修员</th>
 								<th>2006年-2009年</th>
@@ -158,12 +171,9 @@
                     <div class="left-title left">
                         <p>职业技能</p>
                     </div>
-
                     <div class="left-contain left">
-
-                        <div style="text-align:center;clear:both">
-                        </div>
-                        <div class="container">
+                        <div style="text-align:center;clear:both"></div>
+                        <div id="container_media" class="container">
                         	<div class="content-progress">
                             	<div class="col">
                                     <ul id="skill">
@@ -189,11 +199,6 @@
                 </div>
             </div>
             <div class="clear"></div>
-        </div>
-
-        <!-- 页面页脚 -->
-        <div class="foot">
-            页面页脚
         </div>
     </body>
 </html>
