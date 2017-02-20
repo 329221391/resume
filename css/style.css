@@ -37,6 +37,12 @@ body,html{
     #avatar_200{
         display: block;
     }
+    #basic_info_big{
+        display: block;
+    }
+    #basic_info_small{
+        display: none;
+    }
     #avatar_100{
         display: none;
         }
@@ -50,6 +56,12 @@ body,html{
 
 @media screen and (min-width: 590px) and (max-width: 950px){
     #avatar_200{
+        display: none;
+    }
+    #basic_info_big{
+        display: block;
+    }
+    #basic_info_small{
         display: none;
     }
     #avatar_100{
